@@ -1,563 +1,630 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
-  <head>
-    <title>Главная</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <!-- <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div> -->
-<!--     <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"></div>
-        </div>
-        <p>Загрузка...</p>
-      </div>
-    </div> -->
-    <div class="page">
+<html lang="en">
 
-      <header class="section page-header">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="106px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-aside-outer">
-              <div class="rd-navbar-aside">
-                <!-- RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img style="width: 150px; height: 100px;" class="logo-uzun" src="logo.png" alt=""/> <div class="text-logo">
+    <head>
+        <meta charset="utf-8">
+        <title>Mariiana Travel</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+        
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav id="navbarr" class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a id="mobil" href="" class="navbar-brand p-0">
+                    <h2 class="display-6 m-0"><img src="img/logo.png" class="img-fluid" alt="">Mariiana Travel</h2>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#" class="nav-item nav-link active">Главная</a>
+                        <a href="#about" class="nav-item nav-link">О нас</a>
+                        <a href="#agent" class="nav-item nav-link">Агентсво</a>
+                        <a href="#contact" class="nav-item nav-link">Контакты</a>
+                    </div>
+                    <button class="btn btn-primary btn-md-square border-white mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    <a href="" class="btn btn-primary border-white rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Регистрация</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Carousel Start -->
+        <div class="carousel-header">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="text-center p-4" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Решение для всех типов виз</h4>
+                                <h4 class="display-5 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Иммиграционный процесс начинается здесь!</h4>
+                                <p class="text-white mb-4 mb-md-5 fs-10 wow fadeInUp" data-wow-delay="0.5s">
+                                    Мы работаем напрямую с авиакомпаниями, что позволяет нам предлагать дешевые билеты без посредников. Наши клиенты получают лучшие предложения и гарантированное качество обслуживания. Мы тщательно проверяем все варианты, чтобы предложить только надежные и выгодные решения. Круглосуточная поддержка и индивидуальный подход делают нашу работу максимально удобной. Мы гордимся высоким уровнем доверия и удовлетворенности наших клиентов.
+                                </p>
+                                <a class="btn btn-primary border-white rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#">Начать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="text-center p-4" style="max-width: 900px;">
+                                <h5 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Решение для всех типов виз</h5>
+                                <h2 class="display-5 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Лучшие визовые иммиграционные услуги</h2>
+                                <p class="text-white mb-4 mb-md-5 fs-10 wow fadeInUp" data-wow-delay="0.5s">
+                                    Мы работаем напрямую с авиакомпаниями, что позволяет нам предлагать дешевые билеты без посредников. Наши клиенты получают лучшие предложения и гарантированное качество обслуживания. Мы тщательно проверяем все варианты, чтобы предложить только надежные и выгодные решения. Круглосуточная поддержка и индивидуальный подход делают нашу работу максимально удобной. Мы гордимся высоким уровнем доверия и удовлетворенности наших клиентов.
+                                </p>
+                                <a class="btn btn-primary border-white rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#">Начать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon  wow fadeInLeft" data-wow-delay="0.2s" aria-hidden="false"></span>
+                    <span class="visually-hidden-focusable">Previous</span> 
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon  wow fadeInRight" data-wow-delay="0.2s" aria-hidden="false"></span>
+                     <span class="visually-hidden-focusable">Next</span>
+                </button> -->
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title  mb-0" id="exampleModalLabel">Поиск</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="поиск" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5" id="about">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/about-2.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            <img src="img/about-3.jpg" class="img-fluid w-100 border-bottom border-5 border-primary" style="border-top-right-radius: 300px; border-top-left-radius: 300px;" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h5 class="sub-title pe-3">О нас</h5>
+                        <h3 class="display-6 mb-4">Mariiana Travel. <br> Ваш полёт, наша радость</h3>
+                        <p style="text-align: justify;" class="mb-4">Авиагентство работает уже <font color="red"><b>7 лет</b></font> , и за это время зарекомендовало себя как надежный партнер для путешественников. Мы гордимся множеством довольных клиентов, которые возвращаются к нам снова и снова. Наши сотрудники всегда готовы предложить индивидуальные решения и отличное обслуживание. С течением времени мы улучшили наши услуги и расширили ассортимент, чтобы удовлетворить все потребности наших клиентов. Благодаря нашему опыту и профессионализму, мы продолжаем оставаться лидерами в индустрии авиационных услуг. </p>
+                        <div class="row gy-4 align-items-center">
+                            <div class="col-12 col-sm-6 d-flex align-items-center">
+                                <i class="fas fa-map-marked-alt fa-3x "></i>
+                                <h6 class="ms-4">Наша Авиатурагенство находится г.ОШ  ул.Мамырова 5А ориентир  Мэрия города Ош.</h6>
+                            </div>
+                            <div class="col-12 col-sm-6 d-flex align-items-center">
+                                <i class="fas fa-passport fa-3x "></i>
+                                <h5 class="ms-4">www.mariianatravel.com</h5>
+                            </div>
+                            <div class="col-4 col-md-3">
+                                <div class="bg-light text-center rounded p-3">
+                                    <div class="mb-2">
+                                        <i class="fas fa-ticket-alt fa-4x text-primary"></i>
+                                    </div>
+                                    <h1 class="display-5 fw-bold mb-2">7</h1>
+                                    <p class="text-muted mb-0">года опыта</p>
+                                </div>
+                            </div>
+                            <div class="col-8 col-md-9">
+                                <div class="mb-5">
+                                    <p class="text-primary h6 mb-3"><i class="fa fa-check-circle  me-2"></i> Предложите 100 % реальную помощь</p>
+                                    <p class="text-primary h6 mb-3"><i class="fa fa-check-circle  me-2"></i> Это более быстрое и надежное исполнение</p>
+                                    <p class="text-primary h6 mb-3"><i class="fa fa-check-circle  me-2"></i> Точные и экспертные советы</p>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                                        <a href="" class="position-relative wow tada" data-wow-delay=".9s">
+                                            <i style="font-size: 40px;" class="fa fa-phone-square" aria-hidden="true"></i>
+                                            <div class="position-absolute" style="top: 0; left: 25px;">
+                                               
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <span class="text-primary">Есть вопросы?</span>
+                                        <span class=" fw-bold fs-5" style="letter-spacing: 2px;">+996556256525</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Counter Facts Start -->
+        <div class="container-fluid counter-facts py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-passport"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Категории VISA</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">31</span>
+                                    <h4 class=" mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Члены команды</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">377</span>
+                                    <h4 class=" mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Визовый процесс</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">4.9</span>
+                                    <h4 class=" mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Показатели успеха</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">98</span>
+                                    <h4 class=" mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter Facts End -->
+
+
+         <!-- Countries We Offer Start -->
+        <div id="agent" class="container-fluid country overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">СТРАНЫ, МЫ ПРЕДЛАГАЕМ</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Иммиграционные и визовые услуги по странам</h1>
+                    <!-- <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p> -->
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/brazil.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">Бразилия</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/india.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">Индия</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/usa.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">Нью-Йорк</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-4.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/italy.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">Италия</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <a class="btn btn-primary border-white rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">Больше стран</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Countries We Offer End -->
+
+
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service overflow-hidden pt-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">Visa категории</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Успешная иммиграция</h1>
+                    <!-- <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p> -->
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <video width="100%" height="440" controls src="video/insta1.mp4"></video>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <video width="100%" height="440" controls src="video/insta2.mp4"></video>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <video width="100%" height="440" controls src="video/insta3.mp4"></video>
+                            </div>
+                        </div>
+                    </div>
+
+
+                   
+            
+
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+
+
+
+         <!-- Contact Start -->
+        <div class="container-fluid contact overflow-hidden py-5" id="contact">
+            <div class="container py-5">
+                <div class="row g-5 mb-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary pe-3">Контакты</h5>
+                        </div>
+                        <h1 class="display-5 mb-4">Есть вопросы? Не стесняйтесь обращаться к нам</h1>
+                        <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat totam deserunt tempora. Tempore neque necessitatibus corporis error earum sint quae?</p> -->
+                        <div class="d-flex border-bottom mb-4 pb-4">
+                            <i class="fas fa-map-marked-alt fa-4x text-primary bg-light p-3 rounded"></i>
+                            <div class="ps-3">
+                                <h5>Расположение</h5>
+                                <p>г.ОШ  ул.Мамырова 5А ориентир  Мэрия города Ош.</p>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-xl-6">
+                                <div class="d-flex">
+                                    <i class="fas fa-tty fa-3x text-primary"></i>
+                                    <div class="ps-3">
+                                        <h5 class="mb-3">Контакты</h5>
+                                        <div class="mb-3">
+                                            <h6 class="mb-0">Телефон:</h6>
+                                            <a href="#" class="fs-5 text-primary">+996556256525</a><br>
+                                            <a href="#" class="fs-5 text-primary">+996552256525</a><br>
+                                            <a href="#" class="fs-5 text-primary">+996225556525</a>
+                                        </div>
+                                        <div class="mb-3">
+                                            <h6 class="mb-0">instagram:</h6>
+                                            <a href="#" class="fs-5 text-primary">mariiana_travel.kg</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="d-flex">
+                                    <i class="fas fa-clone fa-3x text-primary"></i>
+                                    <div class="ps-3">
+                                        <h5 class="mb-3">Режим работы</h5>
+                                        <div class="mb-3">
+                                            <h6 class="mb-0">Пн - Пт:</h6>
+                                            <a href="#" class="fs-5 text-primary">08.30  до 20.00</a>
+                                        </div>
+                                        <div class="mb-3">
+                                            <h6 class="mb-0">Call центр работает до 24:00:</h6>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                       
-                    </div> Mariiana Travel</a>
-                  </div>
-                </div>
-                <div class="rd-navbar-aside-right rd-navbar-collapse">
-                  <ul class="rd-navbar-corporate-contacts">
-                    <li>
-                      <div class="unit unit-spacing-xs">
-                        <div class="unit-left"><span class="icon fa fa-clock-o"></span></div>
-                        <div class="unit-body">
-                          <p>09:00<span>am</span> — 05:00<span>pm</span></p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3">
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary pe-3">Связаться с нами</h5>
                         </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="unit unit-spacing-xs">
-                        <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                        <div class="unit-body"><a class="link-phone" href="tel:#">+1 323-913-4688</a></div>
-                      </div>
-                    </li>
-                  </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Get a Free Quote</a>
-                </div>
-              </div>
-            </div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
-                <div class="rd-navbar-nav-wrap">
-                  <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                    <li><a class="icon fa fa-instagram" href="#"></a></li>
-                  </ul>
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Главная</a>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <!-- Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
-        <div class="swiper-wrapper text-left">
-          <div class="swiper-slide context-dark" data-slide-bg="images/slider-4-slide-1-1920x678.jpg">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-10">
-                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Enjoy the Best Destinations with Our Travel Agency</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Explore</span><span class="font-weight-bold"> The World</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide context-dark" data-slide-bg="images/slider-4-slide-2-1920x678.jpg">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-10">
-                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">A team of professional Travel Experts</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Trust</span><span class="font-weight-bold"> Our Experience</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide context-dark" data-slide-bg="images/slider-4-slide-3-1920x678.jpg">
-            <div class="swiper-slide-caption section-md">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-10">
-                    <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Build your Next Holiday Trip with Us</h6>
-                    <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Create</span><span class="font-weight-bold"> Your Tour</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Swiper Pagination-->
-        <div class="swiper-pagination"></div>
-      </section>
-      <!-- Section Box Categories-->
-      <section class="section section-lg section-top-1 bg-gray-4">
-        <div class="container offset-negative-1">
-          <div class="box-categories cta-box-wrap">
-            <div class="box-categories-content">
-              <div class="row justify-content-center">
-                <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
-                  <ul class="list-marked-2 box-categories-list">
-                    <li><a href="#"><img src="images/cta-1-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Balloon Flights</h5>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
-                  <ul class="list-marked-2 box-categories-list">
-                    <li><a href="#"><img src="images/cta-2-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Mountain Holiday</h5>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
-                  <ul class="list-marked-2 box-categories-list">
-                    <li><a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Beach Holidays</h5>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div><a class="link-classic wow fadeInUp" href="#">Other Tours<span></span></a>
-          <!-- Owl Carousel-->
-        </div>
-      </section>
-      <!-- Discover New Horizons-->
-      <section class="section section-sm section-first bg-default text-md-left">
-        <div class="container">
-          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-            <div class="col-lg-6 text-center wow fadeInUp"><img src="images/index-3-556x382.jpg" alt="" width="556" height="382"/>
-            </div>
-            <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
-              <div class="box-width-lg-470">
-                <h3>Discover New Horizons</h3>
-                <!-- Bootstrap tabs-->
-                <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left" id="tabs-7">
-                  <!-- Nav tabs-->
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1" data-toggle="tab">About us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-2" data-toggle="tab">Why choose us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-3" data-toggle="tab">Our mission</a></li>
-                  </ul>
-                  <!-- Tab panes-->
-                  <div class="tab-content">
-                    <div class="tab-pane fade show active" id="tabs-7-1">
-                      <p>Wonder Tour is committed to bringing our clients the best in value and quality travel arrangements. We are passionate about travel and sharing the world's wonders with you.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                        <h1 class="display-5 mb-4">Отправьте свое сообщение</h1>
+                        
+                        <form>
+                            <div class="row g-4">
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name">
+                                        <label for="name">Ваше имя</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="phone" class="form-control" id="phone" >
+                                        <label for="phone">Телефон</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="project">
+                                        <label for="project">Ваш проект</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject">
+                                        <label for="subject">Предмет</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" style="height: 160px"></textarea>
+                                        <label for="message">Сообщение</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3">Отправить сообщение</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="tab-pane fade" id="tabs-7-2">
-                      <p>We are proud to offer excellent quality and value for money in our tours, which give you the chance to experience your chosen destination in an authentic and exciting way.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                </div>
+                <div class="office pt-5">
+                    <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary px-3">Туры</h5>
+                        </div>
+                       <!--  <h1 class="display-5 mb-4">Explore Our Office Worldwide</h1>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p> -->
                     </div>
-                    <div class="tab-pane fade" id="tabs-7-3">
-                      <p>Our mission is to provide the ultimate travel planning experience while becoming a one-stop shop for every travel service available in the industry.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/office-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">Australia</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+123.456.7890</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
+                                    <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/office-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">Canada</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">(012) 0345 6789</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
+                                    <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/office-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">United Kingdom</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">01234.567.890</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
+                                    <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/office-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2">India</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+123.45.67890</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
+                                    <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pt-5 wow zoomIn" data-wow-delay="0.1s">
+                            <div class="rounded h-100">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.0523276897507!2d72.80192295049167!3d40.516403581008866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdac2730a19c17%3A0x39ecdbe39caceaf5!2zNSDRg9C7LiDQnNCw0LzRi9GA0L7QstCwLCDQntGI!5e1!3m2!1sru!2skg!4v1726321254923!5m2!1sru!2skg" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
-      <!--	Our Services-->
-      <section class="section section-sm">
-        <div class="container">
-          <h3>Our Services</h3>
-          <div class="row row-30">
-            <div class="col-sm-6 col-lg-4">
-              <article class="box-icon-classic">
-                <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                  <div class="unit-left">
-                    <div class="box-icon-classic-icon fl-bigmug-line-equalization3"></div>
-                  </div>
-                  <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Personalized Matching</a></h5>
-                    <p class="box-icon-classic-text">Our unique matching system lets you find just the tour you want for your next holiday.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <article class="box-icon-classic">
-                <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                  <div class="unit-left">
-                    <div class="box-icon-classic-icon fl-bigmug-line-circular220"></div>
-                  </div>
-                  <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Wide Variety of Tours</a></h5>
-                    <p class="box-icon-classic-text">We offer a wide variety of personally picked tours with destinations all over the globe.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <article class="box-icon-classic">
-                <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                  <div class="unit-left">
-                    <div class="box-icon-classic-icon fl-bigmug-line-favourites5"></div>
-                  </div>
-                  <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Highly Qualified Service</a></h5>
-                    <p class="box-icon-classic-text">Our tour managers are qualified, skilled, and friendly to bring you the best service.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <article class="box-icon-classic">
-                <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                  <div class="unit-left">
-                    <div class="box-icon-classic-icon fl-bigmug-line-headphones32"></div>
-                  </div>
-                  <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">24/7 Support</a></h5>
-                    <p class="box-icon-classic-text">You can always get professional support from our staff 24/7 and ask any question you have.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <article class="box-icon-classic">
-                <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                  <div class="unit-left">
-                    <div class="box-icon-classic-icon fl-bigmug-line-hot67"></div>
-                  </div>
-                  <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Handpicked Hotels</a></h5>
-                    <p class="box-icon-classic-text">Our team offers only the best selection of affordable and luxury hotels to our clients.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <article class="box-icon-classic">
-                <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
-                  <div class="unit-left">
-                    <div class="box-icon-classic-icon fl-bigmug-line-wallet26"></div>
-                  </div>
-                  <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Best Price Guarantee</a></h5>
-                    <p class="box-icon-classic-text">If you find tours that are cheaper than ours, we will compensate the difference.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Hot tours-->
-      <section class="section section-sm bg-default">
-        <div class="container">
-          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Tours</span></h3>
-          <div class="row row-sm row-40 row-md-50">
-            <div class="col-sm-6 col-md-12 wow fadeInRight">
-              <!-- Product Big-->
-              <article class="product-big">
-                <div class="unit flex-column flex-md-row align-items-md-stretch">
-                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="images/product-big-1-600x366.jpg" alt="" width="600" height="366"/></a></div>
-                  <div class="unit-body">
-                    <div class="product-big-body">
-                      <h5 class="product-big-title"><a href="#">Benidorm, Spain</a></h5>
-                      <div class="group-sm group-middle justify-content-start">
-                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
-                      </div>
-                      <p class="product-big-text">Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                      <div class="product-big-price-wrap"><span class="product-big-price">$790</span></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-12 wow fadeInLeft">
-              <!-- Product Big-->
-              <article class="product-big">
-                <div class="unit flex-column flex-md-row align-items-md-stretch">
-                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="images/product-big-2-600x366.jpg" alt="" width="600" height="366"/></a></div>
-                  <div class="unit-body">
-                    <div class="product-big-body">
-                      <h5 class="product-big-title"><a href="#">Mauritius Island, Africa</a></h5>
-                      <div class="group-sm group-middle justify-content-start">
-                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">5 customer reviews</a>
-                      </div>
-                      <p class="product-big-text">The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                      <div class="product-big-price-wrap"><span class="product-big-price">$890</span></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Different People-->
-      <section class="section section-sm">
-        <div class="container">
-          <h3 class="title-block find-car oh"><span class="d-inline-block wow slideInUp">Different People — One Mission</span></h3>
-          <div class="row row-30 justify-content-center box-ordered">
-            <div class="col-sm-6 col-md-5 col-lg-3">
-              <!-- Team Modern-->
-              <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-1-118x118.jpg" alt="" width="118" height="118"/></a>
-                  <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
-                    <g>
-                      <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
-                    </g>
-                  </svg>
-                </div>
-                <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">Diana Robinson</a></h6>
-                  <p class="team-modern-status">Founder, Owner</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-5 col-lg-3">
-              <!-- Team Modern-->
-              <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-2-118x118.jpg" alt="" width="118" height="118"/></a>
-                  <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
-                    <g>
-                      <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
-                    </g>
-                  </svg>
-                </div>
-                <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">Peter McMillan</a></h6>
-                  <p class="team-modern-status">Travel Agent</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-5 col-lg-3">
-              <!-- Team Modern-->
-              <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-3-118x118.jpg" alt="" width="118" height="118"/></a>
-                  <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
-                    <g>
-                      <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
-                    </g>
-                  </svg>
-                </div>
-                <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">Jill Peterson</a></h6>
-                  <p class="team-modern-status">Tour Consultant</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-5 col-lg-3">
-              <!-- Team Modern-->
-              <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/user-4-118x118.jpg" alt="" width="118" height="118"/></a>
-                  <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
-                    <g>
-                      <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
-                    </g>
-                  </svg>
-                </div>
-                <div class="team-modern-caption">
-                  <h6 class="team-modern-name"><a href="#">James Smith</a></h6>
-                  <p class="team-modern-status">PR Manager</p>
-                  <h6 class="team-modern-phone"><a href="tel:#">+1 323-913-4688</a></h6>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Section Subscribe-->
-      <section class="section bg-default text-center offset-top-50">
-        <div class="parallax-container" data-parallax-img="images/parallax-1-1920x850.jpg">
-        dsd
+        <!-- Contact End -->
 
-        </div>
-      </section>
-      <!--	Instagrram wondertour-->
-      <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
-        <div class="container-fluid">
-          <h6 class="gallery-title">Gallery</h6>
-          <!-- Owl Carousel-->
-          <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-3-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-3-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-              dksads
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-4-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-4-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-5-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-5-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-5-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-6-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-6-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-              <div class="thumbnail-mary-figure"><img src="images/gallery-image-7-270x195.jpg" alt="" width="270" height="195"/>
-              </div>
-              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-image-7-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-7-270x195.jpg" alt="" width="270" height="195"/></a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-      <!-- Page Footer--><a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_big_02.jpg" alt=""/></a>
-      <footer class="section footer-corporate context-dark">
-        <div class="footer-corporate-inset">
-          <div class="container">
-            <div class="row row-40 justify-content-lg-between">
-              <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
-                <div class="oh-desktop">
-                  <div class="wow slideInRight" data-wow-delay="0s">
-                    <h6 class="text-spacing-100 text-uppercase">Контакты</h6>
-                    <ul class="footer-contacts d-inline-block d-sm-block">
-                      <li>
-                        <div class="unit">
-                          <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                          <div class="unit-body">
-                            <a class="link-phone" href="tel:#">+996556256525</a><br>
-                            <a class="link-phone" href="tel:#">+996552256525</a><br>
-                            <a class="link-phone" href="tel:#">+996225556525</a>
-                          </div>
 
+      
+
+       
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 style="color: white;" class=" mb-4">Контакты</h4>
+                            <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> г.ОШ  ул.Мамырова 5А ориентир  Мэрия города Ош.</a>
+                            <a href=""><i class="fa fa-instagram"></i> mariiana_travel.kg</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +996556256525</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +996552256525</a>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x  me-2"></i>
+                                <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
                         </div>
-                      </li>
-                      <li>
-                        <div class="unit">
-                          <div class="unit-left"><span class="icon fa fa-instagram"></span></div>
-                          <div class="unit-body"><a class="link-aemail" href="mailto:#">mariiana_travel.kg</a></div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 style="color: white;" class=" mb-4">Режим работы</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Пн - Пт:</h6>
+                                <p class="text-white mb-0">08.30  до 20.00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Суббота:</h6>
+                                <p class="text-white mb-0">10.00 до 18.00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Отпуск:</h6>
+                                <p class="text-white mb-0">Все воскресенье у нас отдых</p>
+                            </div>
                         </div>
-                      </li>
-                      <li>
-                        <div class="unit">
-                          <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                          <div class="unit-body"><a class="link-location" href="#">Наша Авиатурагенство находится г.ОШ  ул.Мамырова 5А ориентир  Мэрия города Ош</a></div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 style="color: white;" class=" mb-4">Меню</h4>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> О нас</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Агентсво</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Туры</a>
+                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Контакты</a>
                         </div>
-                      </li>
-                    </ul>
-                  </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                           <img width="350px" height="300px" src="mariiana.jpeg" alt="">
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-md-5 col-lg-3 col-xl-4">
-                <div class="oh-desktop">
-                  <div class="wow slideInDown" data-wow-delay="0s">
-                    <h6 class="text-spacing-100 text-uppercase">Popular news</h6>
-                    <!-- Post Minimal 2-->
-                    <article class="post post-minimal-2">
-                      <p class="post-minimal-2-title"><a href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a></p>
-                      <div class="post-minimal-2-time">
-                        <time datetime="2019-05-04">May 04, 2019</time>
-                      </div>
-                    </article>
-                    <!-- Post Minimal 2-->
-                    <article class="post post-minimal-2">
-                      <p class="post-minimal-2-title"><a href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a></p>
-                      <div class="post-minimal-2-time">
-                        <time datetime="2019-05-04">May 04, 2019</time>
-                      </div>
-                    </article>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-11 col-md-7 col-lg-5 col-xl-4">
-                <div class="oh-desktop">
-                  <div class="wow slideInLeft" data-wow-delay="0s">
-                    <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
-                    <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                      <li><a href="about.html">About us</a></li>
-                      <li><a href="#">Our Tours</a></li>
-                      <li><a href="#">Our Team</a></li>
-                      <li><a href="#">Gallery</a></li>
-                      <li><a href="#">Blog</a></li>
-                    </ul>
-                    <div class="group-md group-middle justify-content-sm-start"><a class="button button-lg button-primary button-ujarak" href="#">Get in touch</a></div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </footer>
-    </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+        <!-- Footer End -->
+
+        
+       
+
+        <!-- Back to Top -->
+ 
+  <a href="https://api.whatsapp.com/send?phone=996556256525" class="whatsappka"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>  
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
 </html>
